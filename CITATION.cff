@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the software; the accompanying article will be added on publication."
+title: "ev-hub-forecast-value: scoring EV charging-load forecasts by the operating cost of PV-storage-charging hubs"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Grace0340/ev-hub-forecast-value"
+authors:
+  - family-names: "Guo"
+    given-names: "Yao"
+    affiliation: "School of Economics and Management, Jiangmen Polytechnic"
+    orcid: "https://orcid.org/0009-0007-6700-5905"
+    email: "guoyao@jmpt.edu.cn"
+  - family-names: "Peng"
+    given-names: "Penggui"
+    affiliation: "School of Information Engineering, Jiangmen Polytechnic"
+    orcid: "https://orcid.org/0009-0008-5682-4523"
+keywords:
+  - electric vehicle charging
+  - load forecasting
+  - battery storage
+  - model predictive control
+  - forecast evaluation

@@ -1,0 +1,18 @@
+# data are downloaded by scripts/download_data.sh and never committed
+data/
+outputs/
+*.npz
+*.csv
+*.parquet
+*.pkl
+*.pt
+*.log
+*.zip
+logs*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+.venv/

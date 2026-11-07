@@ -1,0 +1,2 @@
+# LF line endings everywhere, so the shell scripts run on Linux after a checkout on Windows
+* text=auto eol=lf

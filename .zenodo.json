@@ -1,0 +1,16 @@
+{
+  "title": "ev-hub-forecast-value: scoring EV charging-load forecasts by the operating cost of PV-storage-charging hubs",
+  "description": "Code to build station-level charging load from the public UrbanEV and CHARGED datasets, train day-ahead forecasts, schedule and settle a PV-battery-grid hub at every station under day-ahead plan following and rolling re-optimisation, and compare forecast accuracy with operating regret. No data or results are included; the public datasets are downloaded from their original sources by scripts/download_data.sh.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {"name": "Guo, Yao", "affiliation": "School of Economics and Management, Jiangmen Polytechnic", "orcid": "0009-0007-6700-5905"},
+    {"name": "Peng, Penggui", "affiliation": "School of Information Engineering, Jiangmen Polytechnic", "orcid": "0009-0008-5682-4523"}
+  ],
+  "keywords": ["electric vehicle charging", "load forecasting", "battery storage", "model predictive control", "forecast evaluation"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/IntelligentSystemsLab/UrbanEV", "relation": "requires", "scheme": "url"},
+    {"identifier": "https://github.com/IntelligentSystemsLab/CHARGED", "relation": "requires", "scheme": "url"},
+    {"identifier": "https://power.larc.nasa.gov", "relation": "requires", "scheme": "url"}
+  ]
+}

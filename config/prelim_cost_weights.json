@@ -1,0 +1,17 @@
+{
+  "description": "Preliminary under/over-forecast cost weights per tariff period (CNY per kWh, UrbanEV), estimated with an earlier version of the hub model. Used for the post-hoc shift (ph) and cost-loss (cost) variants of the UrbanEV forecast pool.",
+  "weights": {
+    "valley": {
+      "alpha": 0.0282673947030657,
+      "beta": 0.010380646905032587
+    },
+    "flat": {
+      "alpha": 0.027215617632160443,
+      "beta": 0.01
+    },
+    "peak": {
+      "alpha": 0.1533718654546936,
+      "beta": 0.11613606496662725
+    }
+  }
+}
